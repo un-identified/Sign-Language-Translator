@@ -14,27 +14,13 @@ This project implements a sign language translator that can recognize and transl
 
 ## Installation
 
-This project uses Python and relies on a number of Python libraries. You can install the required libraries using the following command:
+This project uses Python and relies on a number of Python libraries.
 
-```bash
-pip install -r requirements.txt 
-```
 
 ## Usage
 
 The project is organized into two main directories: `ASL` and `ISL`.  Each directory contains separate models and training scripts for the corresponding sign language.
 
-**To train an ASL model:**
-
-1. Navigate to the `ASL` directory.
-2. Run `python Train_ASL_word.py` to train the ASL word recognition model.
-3. Run `python Train_ASL_alphabet.py` to train the ASL alphabet recognition model.
-
-**To train an ISL model:**
-
-1. Navigate to the `ISL` directory.
-2. Run `python Train_ISL_words.py` to train the ISL word recognition model.
-3. Run `python Train_ISL_alphabet.py` to train the ISL alphabet recognition model.
 
 **To test the trained models:**
 
